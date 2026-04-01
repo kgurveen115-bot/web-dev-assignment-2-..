@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Traker</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="snow">
+  <span style="left:10%; animation-duration: 10s;"></span>
+  <span style="left:20%; animation-duration: 8s;"></span>
+  <span style="left:30%; animation-duration: 12s;"></span>
+  <span style="left:40%; animation-duration: 7s;"></span>
+  <span style="left:50%; animation-duration: 9s;"></span>
+  <span style="left:60%; animation-duration: 11s;"></span>
+  <span style="left:70%; animation-duration: 6s;"></span>
+  <span style="left:80%; animation-duration: 10s;"></span>
+  <span style="left:90%; animation-duration: 8s;"></span>
+</div>
+
+<div class="container">
+  <h1>WEATHER TRACKER</h1>
+
+  <input type="text" id="cityInput" placeholder="Enter city">
+  
+  <button onclick="getWeather()">Search</button>
+ 
+
+  <div id="weatherResult"></div>
+
+  <h3>Recent</h3>
+  <ul id="history"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
